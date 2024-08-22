@@ -29,16 +29,46 @@
 <body class="">
 <!-- header section -->
 <header>
-  <div class="lg:container mx-auto bg-red-500">
+  <nav class="lg:container mx-auto flex justify-between py-5 px-2 lg:py-7 lg:px-5 items-center">
     <!-- nav brand -->
-     <div>
-      
+     <div class="flex space-x-2 items-center">
+      <!-- icons -->
+      <div class="w-7 h-7 bg-[#ABEF5F] inline-flex justify-center items-center rounded-full">
+        <i class="fa-solid fa-arrow-right -rotate-45"></i>
+      </div>
+      <h2 class="font-extrabold text-2xl lg:text-3xl">Rinterio</h2>
      </div>
     <!-- nav menu -->
-     <div></div>
+     <div class="hidden lg:block">
+      <ul class="flex space-x-7 text-base ">
+        <li class=""><a class="font-semibold" href="#">Home</a></li>
+        <li class=""><a href="#">Services</a></li>
+        <li class=""><a href="#">Porfolio</a></li>
+        <li class=""><a href="#">Blog</a></li>
+        <li class=""><a href="#">Contact Us</a></li>
+      </ul>
+     </div>
     <!-- search and button side -->
-    <div></div>
-  </div>
+    <div class="flex justify-center items-center space-x-2 lg:space-x-5">
+      <div class="hidden lg:block space-x-3">
+      <!-- search icons -->
+      <div class="w-8 h-8 bg-[#E9E9E9] rounded-full flex justify-center items-center lg:float-start">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <!-- card icon -->
+      <div class="w-8 h-8 bg-[#E9E9E9] rounded-full flex justify-center items-center lg:float-end">
+        <i class="fa-solid fa-cart-shopping"></i>
+      </div>
+      </div>
+      <!-- button -->
+      <div class="bg-[#ABEF5F] lg:py-2 lg:px-5 rounded-full space-x-3 hidden lg:block">
+        <button class="text-xl font-bold">Book Consult</button>
+        <i class="fa-solid fa-arrow-right -rotate-45 bg-slate-900 text-white p-2 rounded-full"></i>
+      </div>
+      <!-- toggle icon -->
+      <div class="lg:hidden block"><a href="#"><i class="fa-solid fa-bars"></i></a></div>
+    </div>
+  </nav>
 </header>
 <!-- main section -->
 <main></main>
